@@ -1,4 +1,5 @@
 # resume
+
 My current resume
 
-[View it here!](https://ghandic.github.io/resume/)
+[View it here!](https://ssnived.github.io/resume/)
