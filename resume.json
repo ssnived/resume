@@ -6,7 +6,7 @@
     "image": "Nived_Subbarayan_Photo.jpeg",
     "email": "ssnived@gmail.com",
     "phone": "61422886550",
-    "summary": "As a Quality Engineer with over 4 years of experience, Nived is dedicated to advancing his knowledge and skills in the field of Quality Engineering. He aims to broaden his exposure to different markets and products, and to improve his technical abilities to ensure the highest quality standards are met. Nived strives to establish himself as a respected professional and leader in the product development industry, known for his expertise in Quality Engineering.",
+    "summary": "As a Quality Engineer with over 5 years of experience, Nived is dedicated to advancing his knowledge and skills in the field of Quality Engineering. He aims to broaden his exposure to different markets and products, and to improve his technical abilities to ensure the highest quality standards are met. Nived strives to establish himself as a respected professional and leader in the product development industry, known for his expertise in Quality Engineering.",
     "location": {
       "city": "Melbourne",
       "countryCode": "AU"
@@ -62,50 +62,18 @@
 
   "education": [
     {
-      "institution": "Lancaster University",
-      "area": "Medical Statistics",
-      "studyType": "Master of Science - ",
-      "startDate": "2015-09-01",
-      "endDate": "2016-04-01",
-      "gpa": "First class, magna cum laude"
+      "institution": "The Australian National University",
+      "area": "Mechatronic Systems",
+      "studyType": "Bachelor of Engineering (Honours)",
+      "startDate": "2015-02-01",
+      "endDate": "2018-11-01",
+      "gpa": "GPA: 6.3/7.0"
     }
   ],
   "languages": [
     {
       "language": "English",
       "fluency": "Native Speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Tech",
-      "keywords": ["LinkedIn Posts", "Website Blogs", "Opensource"]
-    },
-    {
-      "name": "Sports",
-      "keywords": ["Lacrosse", "Rugby"]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jeremiah Mannings | Associate Director",
-      "reference": "Andy's leadership on the Services Australia project has been incredible, continually going above and beyond for the work we are delivering for the client, resulting in client feedback such as 'we never have a doubt that you guys can deliver' due to Andy's tech leadership. Andy also has shown incredible leadership focusing on building people and the team to make sure everyone succeeds, by building skillsets and fostering a culture & environment of innovation. With the inclusion of client teams and constant client involvement in technical aspects of the project, Andy has excelled on inclusively working with the client to upskill and bring them along the journey of this project."
-    },
-    {
-      "name": "Benjamin Moretti | Senior Manager",
-      "reference": "Throughout my 25+ year career, I can categorically state that he is one of the most impressive professionals I have had the pleasure to work with. Any project Andy is involved in will be a success and I look forward to working with him again"
-    },
-    {
-      "name": "Oliver Cochrane | Director",
-      "reference": "Andy is a very high calibre data scientist. Andy is hard working and committed on projects. He is quick to learn and is able to apply his learnings and technical skills into real life scenarios. He has a strong technical skillset both in terms of data science but also frontend development. He is an effective team player and good communicator."
-    },
-    {
-      "name": "Paul Sylvester | Senior Engineer",
-      "reference": "Andy is a very enthusiastic, committed and talented Data Scientist, working with Andy on technically challenging OCR project revealed all of those facets in great depth.  Andy was able to join an established team, quickly get up to speed and not only contribute to the development, he improved the accuracy and also the quality of the work being undertaken.  I was very impressed with his skill set and dedication and would hope to work together with Andy again in the future, a genuine asset to any employer."
-    },
-    {
-      "name": "Mark Strefford | Engagement Manager",
-      "reference": "Andy joined my team as a critical point in delivery of a high-profile project.  He was quickly able to get up to speed with the approach we'd taken to date and improve the solution we were developing.  He brought in ideas and worked hard to prove them.  He has excellent technical knowledge, is able to adapt what he knows to customer projects quickly, can identify key areas for focus, and works hard to deliver them.  I would fully recommend Andy to any data science / machine learning project, and would actively look to have him on my team again"
     }
   ],
   "publications": [],
