@@ -21,6 +21,7 @@ jobs:
           cd jsonresume-theme-stackoverflow
           npm install .
           cd ..
+          npm install 
           mkdir public
 
       - name: Build the resume - html
