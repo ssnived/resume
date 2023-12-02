@@ -4,7 +4,7 @@
   "description": "My current resume",
   "main": "index.js",
   "dependencies": {
-    "jsonresume-theme-stackoverflow": "^1.4.0"
+    "resumed-cli": "^2.1.9"
   },
   "devDependencies": {},
   "scripts": {
