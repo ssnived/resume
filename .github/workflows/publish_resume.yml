@@ -20,6 +20,9 @@ jobs:
           npm install .
           cd node_modules 
           git clone https://github.com/ghandic/jsonresume-theme-stackoverflow.git
+          cd jsonresume-theme-stackoverflow
+          npm install .
+          cd ..
           cd ..
           mkdir public
 
