@@ -26,7 +26,7 @@ jobs:
         run: |
           echo "$(tty)"
           script --return --quiet -c "./node_modules/.bin/resumed export --theme stackoverflow --format html Nived_Subbarayan_Resume.html" /dev/null
-          script "cp Nived_Subbarayan_Resume.html public/index.html"
+          cp Nived_Subbarayan_Resume.html public/index.html
 
       - name: Deploy the resume - html
         uses: peaceiris/actions-gh-pages@v3
