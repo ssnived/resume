@@ -1,45 +1,45 @@
-name: "Publish Resume"
-on:
-  push:
-    branches:
-      - master
+# name: "Publish Resume"
+# on:
+#   push:
+#     branches:
+#       - master
 
-jobs:
-  publish_resume:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: "11"
+# jobs:
+#   publish_resume:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v1
+#       - uses: actions/setup-node@v1
+#         with:
+#           node-version: "11"
 
-      - name: Install the dependencies
-        run: |
-          apt-get update && apt-get install -y git
-          npm install resumed-cli
-          npm install .
-          mkdir public
+#       - name: Install the dependencies
+#         run: |
+#           apt-get update && apt-get install -y git
+#           npm install resumed-cli
+#           npm install .
+#           mkdir public
 
-      - name: Build the resume - html
-        run: |
-          echo "$(tty)"
-          script --return --quiet -c "./node_modules/.bin/resumed export --theme modern --format html Nived_Subbarayan_Resume.html; cp Nived_Subbarayan_Resume.html public/index.html" /dev/null
+#       - name: Build the resume - html
+#         run: |
+#           echo "$(tty)"
+#           script --return --quiet -c "./node_modules/.bin/resumed export --theme modern --format html Nived_Subbarayan_Resume.html; cp Nived_Subbarayan_Resume.html public/index.html" /dev/null
 
-      - name: Deploy the resume - html
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+#       - name: Deploy the resume - html
+#         uses: peaceiris/actions-gh-pages@v3
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
+#           publish_dir: ./public
 
-      - name: Build the resume - pdf
-        run: |
-          script --return --quiet -c "./node_modules/.bin/resumed export --theme modern --format pdf Nived_Subbarayan_Resume.pdf" /dev/null
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add Nived_Subbarayan_Resume.pdf
-          git commit -m "Publishing latest PDF"
+#       - name: Build the resume - pdf
+#         run: |
+#           script --return --quiet -c "./node_modules/.bin/resumed export --theme modern --format pdf Nived_Subbarayan_Resume.pdf" /dev/null
+#           git config --local user.email "action@github.com"
+#           git config --local user.name "GitHub Action"
+#           git add Nived_Subbarayan_Resume.pdf
+#           git commit -m "Publishing latest PDF"
 
-      - name: Deploy the resume - pdf
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+#       - name: Deploy the resume - pdf
+#         uses: ad-m/github-push-action@master
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
