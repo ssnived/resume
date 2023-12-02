@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "jsonresume-theme-even": "^0.22.0",
+    "jsonresume-theme-stackoverflow": "^2.0.2",
     "resumed-cli": "^2.1.9"
   },
   "devDependencies": {},
