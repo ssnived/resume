@@ -18,9 +18,7 @@ jobs:
           apt-get update && apt-get install -y git
           npm install resumed-cli
           git clone https://github.com/ghandic/jsonresume-theme-stackoverflow.git
-          cd jsonresume-theme-stackoverflow
-          npm install .
-          cd ..
+          mv jsonresume-theme-stackoverflow node_modules
           mkdir public
 
       - name: Build the resume - html
