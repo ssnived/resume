@@ -16,7 +16,7 @@ jobs:
       - name: Install the dependencies
         run: |
           apt-get update && apt-get install -y git
-          npm install resumed-cli
+          npm install -g resumed-cli
           mkdir node_modules/ 
           git clone https://github.com/ghandic/jsonresume-theme-stackoverflow.git
           mv jsonresume-theme-stackoverflow node_modules/ 
