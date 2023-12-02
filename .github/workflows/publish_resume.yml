@@ -20,13 +20,13 @@ jobs:
           git clone https://github.com/ghandic/jsonresume-theme-stackoverflow.git
           npm install .
           cd ..
+          mkdir public
 
       - name: Build the resume - html
         run: |
           echo "$(tty)"
-          script --return --quiet -c "./node_modules/.bin/resumed export --theme stackoverflow --format html Nived_Subbarayan_Resume.html" /dev/null
-          mkdir public
-          cp Nived_Subbarayan_Resume.html public/index.html
+          script --return --quiet -c "./node_modules/.bin/resumed export --theme stackoverflow --format html Nived_Subbarayan_Resume.html; cp Nived_Subbarayan_Resume.html public/index.html" /dev/null
+          
 
       - name: Deploy the resume - html
         uses: peaceiris/actions-gh-pages@v3
@@ -37,7 +37,6 @@ jobs:
       - name: Build the resume - pdf
         run: |
           script --return --quiet -c "./node_modules/.bin/resumed export --theme stackoverflow --format pdf Nived_Subbarayan_Resume.pdf" /dev/null
-          echo "This step runs after the previous command completes"
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add Nived_Subbarayan_Resume.pdf
