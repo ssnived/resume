@@ -20,12 +20,12 @@ jobs:
           git clone https://github.com/ghandic/jsonresume-theme-stackoverflow.git
           npm install .
           cd ..
-          mkdir public
 
       - name: Build the resume - html
         run: |
           echo "$(tty)"
           script --return --quiet -c "./node_modules/.bin/resumed export --theme stackoverflow --format html Nived_Subbarayan_Resume.html" /dev/null
+          mkdir public
           cp Nived_Subbarayan_Resume.html public/index.html
 
       - name: Deploy the resume - html
