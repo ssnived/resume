@@ -37,6 +37,8 @@ jobs:
       - name: Build the resume - pdf
         run: |
           script --return --quiet -c "./node_modules/.bin/resumed export --theme stackoverflow --format pdf Nived_Subbarayan_Resume.pdf" /dev/null
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add Nived_Subbarayan_Resume.pdf
           git commit -m "Publishing latest PDF"
 
