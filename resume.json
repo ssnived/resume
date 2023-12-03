@@ -102,6 +102,7 @@
         "JIRA"
       ],
       "highlights": [
+        "Led a Quality Engineering team to maintain quality standards and hit all release deadlines",
         "Built a custom shippable backend API testing template for use in all the client's backend repositories",
         "Coached developers to be able to add their own tests and create a cohesive quality-driven team",
         "Demoed new features to the wider client team in their company wide showcase calls"
@@ -181,6 +182,35 @@
         "Javascript",
         "Azure",
         "AWS",
+        "JIRA"
+      ],
+      "highlights": [],
+      "pinned": true
+    },
+    {
+      "name": "myWizardAiOps | Automated Ticketing Platform",
+      "entity": "Accenture",
+      "description": "Led a Quality Engineering team tasked with the creation and implementation of best Quality Engineering practices for an internal Automated Ticket resolution SaaS product which Accenture sells to clients.",
+      "startDate": "2019-08-01",
+      "endDate": "2021-08-01",
+      "location": "Melbourne, Australia",
+      "keywords": ["Cypress", "Typescript", "Javascript", "AWS", "JIRA"],
+      "highlights": [],
+      "pinned": true
+    },
+    {
+      "name": "Government Client | Systems Tester",
+      "entity": "Accenture",
+      "description": "Systems tester involved in managing release processes and working in an agile evironment. Tasked with manual testing and creating test plans and test documention to ensure government standards and release deadlines are met.",
+      "startDate": "2019-03-01",
+      "endDate": "2019-08-01",
+      "location": "Melbourne, Australia",
+      "keywords": [
+        "Manual Testing",
+        "Test Plans",
+        "Documentation",
+        "Test Cases",
+        "Agile",
         "JIRA"
       ],
       "highlights": [],
