@@ -2,14 +2,14 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Nived Subbarayan",
-    "label": "Architect | Quality Engineering",
+    "label": "Quality Engineering Architect",
     "image": "https://github.com/ssnived/resume/blob/master/Nived_Subbarayan_Photo.jpeg?raw=true",
     "email": "ssnived@gmail.com",
     "phone": "61422886550",
     "summary": "As a Quality Engineer with over 5 years of experience, Nived is dedicated to advancing his knowledge and skills in the field of Quality Engineering. He aims to broaden his exposure to different markets and products, and to improve his technical abilities to ensure the highest quality standards are met. Nived strives to establish himself as a respected professional and leader in the product development industry, known for his expertise in Quality Engineering.",
     "location": {
       "city": "Melbourne",
-      "countryCode": "AU"
+      "countryCode": "Australia"
     },
     "profiles": [
       {
@@ -26,48 +26,229 @@
   },
   "skills": [
     {
+      "name": "Languages",
+      "level": "Master",
+      "keywords": ["Python", "Typescript", "Javascript", "C#"]
+    },
+    {
       "name": "Automation",
       "level": "Master",
-      "keywords": ["Playwright", "Cypress"]
+      "keywords": ["Playwright", "Cypress", "Postman", "DevOps", "PyTest"]
     },
     {
-      "name": "Front End",
+      "name": "Services",
       "level": "Master",
-      "keywords": ["NodeJS", "React"]
-    },
-    {
-      "name": "Back End",
-      "level": "Master",
-      "keywords": ["AWS", "GCP"]
+      "keywords": ["AWS", "Azure", "Jira", "GitLab", "Bitbucket"]
     },
     {
       "name": "Databases",
-      "level": "Master",
-      "keywords": ["PostgreSQL", "MySql", "Elastic", "Hive", "sqlite"]
+      "level": "Intermediate",
+      "keywords": ["PostgreSQL", "MySql", "DBT", "DBT Cloud", "Snowflake"]
     }
   ],
   "work": [
     {
       "company": "Slalom Build",
       "name": "Slalom Build",
-      "position": "Architect | Quality Engineering",
-      "location": "Melbourne, AU",
+      "position": "Quality Engineering Architect",
+      "location": "Melbourne, Australia",
       "url": "https://www.slalombuild.com",
       "startDate": "2021-08-05",
-      "highlights": ["testing123"],
-      "summary": "Slalom is a modern consulting firm focused on strategy, technology, and business transformation. Slalom redefines what's possible and create what's next",
+      "highlights": [
+        "Lead Quality Engineer involved in architecting and implementing 'shift left' modern quality solutions in multiple projects spanning from web applications, mobile applications, database modernisations and infrastructure modernisations",
+        "Proficient in working in cross functional teams and coaching Software, Data, Platform and other Quality Engineers on best quality practices throughout the whole software development lifecycle",
+        "Demonstrated exceptional leadership and architectural skills which led to a role promotion from Senior Quality Engineer to Quality Engineering Architect"
+      ],
+      "summary": "Slalom is a modern consulting firm focused on strategy, technology, and business transformation. Slalom redefines what's possible and create what's next.",
+      "pinned": true
+    },
+    {
+      "company": "Accenture",
+      "name": "Accenture",
+      "position": "Quality Engineering Consultant",
+      "location": "Melbourne, Australia",
+      "url": "https://www.accenture.com",
+      "startDate": "2019-03-03",
+      "endDate": "2021-08-05",
+      "highlights": [
+        "Working as a systems QA Engineer in client operations and project delivery",
+        "Adept in Agile working methodologies. Received an ICAgile Certified Professional certification",
+        "Proficient in working in teams both domestically and internationally"
+      ],
+      "summary": "Accenture is a leading global professional services company that helps the world’s leading businesses, governments and other organisations build their digital core, optimise their operations, accelerate revenue growth and enhance citizen services—creating tangible value at speed and scale.",
       "pinned": true
     }
   ],
-
+  "projects": [
+    {
+      "name": "Financial Services Client | Engagement Application",
+      "entity": "Slalom Build",
+      "description": "Led the quality modernisation effort for a mobile application and front-end web application using a behaviour-driven framework.",
+      "startDate": "2023-01-01",
+      "location": "Melbourne, Australia",
+      "keywords": [
+        "Specflow",
+        "C#",
+        ".NET",
+        "API Testing",
+        "Typescript",
+        "Javascript",
+        "Postman",
+        "Playwright",
+        "Appium",
+        "React",
+        "GitLab",
+        "AWS",
+        "JIRA"
+      ],
+      "highlights": [
+        "Built a custom shippable backend API testing template for use in all the client's backend repositories",
+        "Coached developers to be able to add their own tests and create a cohesive quality-driven team",
+        "Demoed new features to the wider client team in their company wide showcase calls"
+      ],
+      "pinned": true
+    },
+    {
+      "name": "Retail Client | Merchant Web Application",
+      "entity": "Slalom Build",
+      "description": "Led the quality modernisation effort for a front-end web application by utilising Playwright to overhaul the current test automation framework.",
+      "startDate": "2022-06-01",
+      "endDate": "2022-12-01",
+      "location": "Melbourne, Australia",
+      "keywords": [
+        "Python",
+        "Playwright",
+        "Appium",
+        "React",
+        "Typescript",
+        "Javascript",
+        "GitLab",
+        "AWS",
+        "JIRA"
+      ],
+      "highlights": [
+        "Established and implemented best practices for the development and pipeline processes to ensure that the highest standards of quality were met throughout this and future projects",
+        "Utilised AWS Cloudwatch to set up monitoring and alerting for performance triggers"
+      ],
+      "pinned": true
+    },
+    {
+      "name": "Retail Client | Notification Service",
+      "entity": "Slalom Build",
+      "description": "Directed the quality strategy and implementation for a notification service modernisation project, overseeing the overhaul of the way emails and text messages are sent at large scale business entities.",
+      "startDate": "2022-03-01",
+      "endDate": "2022-06-01",
+      "location": "Melbourne, Australia",
+      "keywords": ["Python", "Gmail API", "PyTest", "Twilio", "AWS", "JIRA"],
+      "highlights": [
+        "Developed custom python scripts to programatically access a test gmail and twilio inboxes to validate the successful sending of email and text messages",
+        "Integrated the custom tests with the CI/CD pipelines to optimise test automation in the software development lifecycle"
+      ],
+      "pinned": true
+    },
+    {
+      "name": "Retail Client | Data Platform",
+      "entity": "Slalom Build",
+      "description": "Coordinated the architecture, design, and implementation of a data quality strategy for a modernised analytics platform and services on AWS Cloud in a cross-functional team. This enabled the agency to offer reliable analytics as a shared service to customers through the use of native and 3rd party components.",
+      "startDate": "2022-01-01",
+      "endDate": "2022-03-01",
+      "location": "Melbourne, Australia",
+      "keywords": [
+        "DBT",
+        "DBT Cloud",
+        "SQL",
+        "Snowflake",
+        "AWS",
+        "DBeaver",
+        "GitLab",
+        "JIRA"
+      ],
+      "highlights": [
+        "Solidified my understanding of best quality practices in data-driven projects",
+        "Implemented modern data quality checks in the CI/CD pipelines"
+      ],
+      "pinned": true
+    },
+    {
+      "name": "Oil & Gas Client | Site Owner Web Application",
+      "entity": "Slalom Build",
+      "description": "Led the development and implementation of a quality strategy for a consolidated front-end web application for physical site owners, managing testing, defect identification, and cross-functional collaboration for successful delivery.",
+      "startDate": "2021-08-01",
+      "endDate": "2021-12-01",
+      "location": "Melbourne, Australia",
+      "keywords": [
+        "Cypress",
+        "Typescript",
+        "Javascript",
+        "Azure",
+        "AWS",
+        "JIRA"
+      ],
+      "highlights": [],
+      "pinned": true
+    },
+    {
+      "name": "Summit Participant",
+      "entity": "Engineers Without Borders Australia",
+      "description": "Undertook a humanitarian engineering trip to Borneo to further my human-centred design skills and cultural awareness.",
+      "startDate": "2018-06-01",
+      "endDate": "2018-07-01",
+      "location": "Kuching, Malaysia",
+      "keywords": ["Volunteering", "Thesis", "Human-Centred Design"],
+      "highlights": [
+        "Conducted as part of my honours thesis titled “Optimisation of off-grid solar photovoltaic systems in developing areas”"
+      ],
+      "pinned": true
+    }
+  ],
   "education": [
     {
       "institution": "The Australian National University",
       "area": "Mechatronic Systems",
+      "location": {
+        "city": "Canberra",
+        "region": "Australia"
+      },
       "studyType": "Bachelor of Engineering (Honours)",
       "startDate": "2015-02-01",
       "endDate": "2018-11-01",
       "gpa": "GPA: 6.3/7.0"
+    },
+    {
+      "institution": "The University of Wisconsin-Madison",
+      "area": "Engineering Exchange Program",
+      "location": {
+        "city": "Madison",
+        "region": "WI, United States"
+      },
+      "studyType": "Study Abroad",
+      "startDate": "2017-08-01",
+      "endDate": "2017-12-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Certified Professional Certification",
+      "awarder": "ICAgile"
+    },
+    {
+      "title": "Certified Cloud Practitioner",
+      "awarder": "AWS"
+    },
+    {
+      "title": "2 x Slalom Build Team Mogul",
+      "awarder": "Slalom Build",
+      "summary": "Awarded to members of the best performing Slalom Build team over the quarter"
+    },
+    {
+      "title": "New Colombo Plan Scholarship",
+      "awarder": "The Australian National University",
+      "summary": "Due to my high academic standing, I have received a New Colombo Plan Scholarship valued at $3,000 from the Australian National University"
+    },
+    {
+      "title": "Honours Thesis",
+      "awarder": "The Australian National University",
+      "summary": "Completed an honours thesis titled “Optimisation of off-grid solar photovoltaic systems in developing areas”"
     }
   ],
   "languages": [
