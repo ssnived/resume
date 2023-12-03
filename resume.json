@@ -205,22 +205,16 @@
     {
       "institution": "The Australian National University",
       "area": "Mechatronic Systems",
-      "location": {
-        "city": "Canberra",
-        "region": "Australia"
-      },
+      "location": "Canberra, Australia",
       "studyType": "Bachelor of Engineering (Honours)",
       "startDate": "2015-02-01",
       "endDate": "2018-11-01",
-      "gpa": "GPA: 6.3/7.0"
+      "gpa": "6.3/7.0"
     },
     {
       "institution": "The University of Wisconsin-Madison",
       "area": "Engineering Exchange Program",
-      "location": {
-        "city": "Madison",
-        "region": "WI, United States"
-      },
+      "location": "Madison, WI, United States",
       "studyType": "Study Abroad",
       "startDate": "2017-08-01",
       "endDate": "2017-12-01"
