@@ -251,12 +251,16 @@
   ],
   "awards": [
     {
-      "title": "Certified Professional Certification",
-      "awarder": "ICAgile"
+      "title": "Certified Solutions Architect – Associate",
+      "awarder": "AWS"
     },
     {
       "title": "Certified Cloud Practitioner",
       "awarder": "AWS"
+    },
+    {
+      "title": "Certified Professional Certification",
+      "awarder": "ICAgile"
     },
     {
       "title": "2 x Slalom Build Team Mogul",
