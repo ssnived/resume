@@ -8,7 +8,6 @@
     "jsonresume-theme-stackoverflow": "^2.0.2",
     "resumed-cli": "^2.1.9"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
