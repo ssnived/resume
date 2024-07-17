@@ -5,7 +5,7 @@
     "label": "Quality Engineering Architect",
     "image": "https://github.com/ssnived/resume/blob/master/Nived_Subbarayan_Photo.jpg?raw=true",
     "email": "ssnived@gmail.com",
-    "phone": "61422886550",
+    "phone": "447438761405",
     "summary": "As a Quality Engineer with over 5 years of experience, Nived is dedicated to advancing his knowledge and skills in the field of Quality Engineering. He aims to broaden his exposure to different markets and products, and to improve his technical abilities to ensure the highest quality standards are met. Nived strives to establish himself as a respected professional and leader in the product development industry, known for his expertise in Quality Engineering. Please note, Nived is based in London, United Kingdom, with full working rights.",
     "location": {
       "city": "London",
@@ -28,22 +28,45 @@
     {
       "name": "Languages",
       "level": "Master",
-      "keywords": ["Python", "Typescript", "Javascript", "C#"]
+      "keywords": [
+        "Python",
+        "Typescript",
+        "Javascript",
+        "C#"
+      ]
     },
     {
       "name": "Automation",
       "level": "Master",
-      "keywords": ["Playwright", "Cypress", "Postman", "DevOps", "PyTest"]
+      "keywords": [
+        "Playwright",
+        "Cypress",
+        "Postman",
+        "DevOps",
+        "PyTest"
+      ]
     },
     {
       "name": "Services",
       "level": "Master",
-      "keywords": ["AWS", "Azure", "Jira", "GitLab", "Bitbucket"]
+      "keywords": [
+        "AWS",
+        "Azure",
+        "Jira",
+        "GitLab",
+        "Bitbucket"
+      ]
     },
     {
       "name": "Databases",
       "level": "Intermediate",
-      "keywords": ["PostgreSQL", "MySql", "DBT", "DBT Cloud", "Snowflake"]
+      "keywords": [
+        "PostgreSQL",
+        "MySql",
+        "DBT",
+        "DBT Cloud",
+        "Snowflake"
+      ]
     }
   ],
   "work": [
@@ -139,7 +162,14 @@
       "startDate": "2022-03-01",
       "endDate": "2022-06-01",
       "location": "Melbourne, Australia",
-      "keywords": ["Python", "Gmail API", "PyTest", "Twilio", "AWS", "JIRA"],
+      "keywords": [
+        "Python",
+        "Gmail API",
+        "PyTest",
+        "Twilio",
+        "AWS",
+        "JIRA"
+      ],
       "highlights": [
         "Developed custom python scripts to programatically access a test gmail and twilio inboxes to validate the successful sending of email and text messages",
         "Integrated the custom tests with the CI/CD pipelines to optimise test automation in the software development lifecycle"
@@ -194,7 +224,13 @@
       "startDate": "2019-08-01",
       "endDate": "2021-08-01",
       "location": "Melbourne, Australia",
-      "keywords": ["Cypress", "Typescript", "Javascript", "AWS", "JIRA"],
+      "keywords": [
+        "Cypress",
+        "Typescript",
+        "Javascript",
+        "AWS",
+        "JIRA"
+      ],
       "highlights": [],
       "pinned": true
     },
@@ -223,7 +259,11 @@
       "startDate": "2018-06-01",
       "endDate": "2018-07-01",
       "location": "Kuching, Malaysia",
-      "keywords": ["Volunteering", "Thesis", "Human-Centred Design"],
+      "keywords": [
+        "Volunteering",
+        "Thesis",
+        "Human-Centred Design"
+      ],
       "highlights": [
         "Conducted as part of my honours thesis titled “Optimisation of off-grid solar photovoltaic systems in developing areas”"
       ],
