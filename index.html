@@ -1,30 +1,15 @@
 <!doctype html>
 <html>
   <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<title>Nived Subbarayan · Quality Engineering Architect</title>
-  <meta name="description" content="As a Quality Engineer with over 5 years of experience, Nived is dedicated to advancing his knowledge and skills in the field of Quality Engineering. He aims to broaden his exposure to different markets and products, and to improve his technical abilities to ensure the highest quality standards are met. Nived strives to establish himself as a respected professional and leader in the product development industry, known for his expertise in Quality Engineering. Please note, Nived is based in London, United Kingdom, with full working rights.">
-
-  <meta property="og:image" content="https://github.com/ssnived/resume/blob/master/Nived_Subbarayan_Photo.jpg?raw=true">
-  <meta property="og:description" content="As a Quality Engineer with over 5 years of experience, Nived is dedicated to advancing his knowledge and skills in the field of Quality Engineering. He aims to broaden his exposure to different markets and products, and to improve his technical abilities to ensure the highest quality standards are met. Nived strives to establish himself as a respected professional and leader in the product development industry, known for his expertise in Quality Engineering. Please note, Nived is based in London, United Kingdom, with full working rights.">
-  <meta property="og:title" content="Nived Subbarayan · Quality Engineering Architect">
-  <meta name="twitter:title" content="Nived Subbarayan · Quality Engineering Architect">
-  <link rel="icon" href="https://github.com/ssnived/resume/blob/master/Nived_Subbarayan_Photo.jpg?raw=true" type="image/x-icon">
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Nived Subbarayan</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
   <style>
   /********************************************
 * 	reset from
 * 	http://meyerweb.com/eric/tools/css/reset/
 *******************************************/
-
-@page {
-  size: A4 landscape;
-  margin: 0;
-}
 
 html,
 body,
@@ -167,7 +152,6 @@ html {
   letter-spacing: 0;
   line-height: 1.46153846;
   text-align: left;
-  -webkit-text-size-adjust: 100%;
 }
 
 p {
@@ -522,12 +506,16 @@ section .location {
 #skills .item,
 #interests .item {
   width: 15em;
-  /* padding: 0 0.5em 0.5em 0; */
+  padding: 0 0.5em 0.5em 0;
   border-bottom: none;
 }
 
+#skills .item {
+  width: 16em;
+}
+
 #skills .item .keywords {
-  width: 12em;
+  width: 15em;
 }
 
 /* Skill chart */
@@ -582,15 +570,10 @@ section .location {
 #references .item {
   padding-left: 0.5em;
   border-left: 5px solid #ff6d1f;
-  margin-bottom: 2em;
-}
-
-.toggle-item {
-  display: none;
 }
 
 .section > section > section {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 /******************
@@ -643,34 +626,6 @@ section .location {
   .section > section:not(.main-summary) {
     margin-left: 1.67rem;
   }
-  .toggle-item {
-    transform: translate(-9999px);
-  }
-  .toggle-item + label {
-    display: block;
-  }
-  .toggle-item:checked + label:after {
-    content: "\f0d7";
-  }
-  .toggle-item + label:after {
-    float: left;
-    cursor: pointer;
-    margin-left: -20px;
-    color: #aaa;
-    font-size: 16px;
-    font-weight: 900;
-    font-family: "Font Awesome 5 Free";
-    content: "\f0da";
-  }
-  .toggle-item ~ .item {
-    height: 0;
-    opacity: 0;
-  }
-  .toggle-item:checked ~ .item {
-    height: auto;
-    opacity: 1;
-    transition: all 0.5s linear;
-  }
   .company::before,
   .institution::before,
   .organization::before,
@@ -694,6 +649,9 @@ section .location {
 }
 
 @media print {
+  #profiles a:not(.hide-href-print)::after{
+    content: " (" attr(href) ") ";
+  }
   #resume {
     margin: 0.1em;
     padding: 0.1em;
@@ -703,7 +661,6 @@ section .location {
   }
   @page {
     margin: 1cm 1.4cm;
-    size: 21cm 29.7cm;
   }
   .item-count {
     display: none;
@@ -813,55 +770,55 @@ section .location {
   <body>
   
   <div id="resume">
-    <header id="header" class="clear">
-    	<img class="image" src="https://github.com/ssnived/resume/blob/master/Nived_Subbarayan_Photo.jpg?raw=true" alt="Nived Subbarayan" />
-    	<div class="middle">
-    		<h1 class="name">Nived Subbarayan</h1>
-    		<h2 class="label">Quality Engineering Architect</h2>
-    	</div>
-    
-    	<span class="location">
-    		<span class="city">London,</span>
-    		<span class="countryCode">United Kingdom | Full Working Rights</span>
-    	</span>
-    
-    
-    	<div id="contact">
-    		<div class="email">
-    			<span class="far fa-envelope"></span>
-    			<a href="mailto:ssnived@gmail.com">ssnived@gmail.com</a>
+    	<header id="header" class="clear">
+    		<img class="image" src="https://github.com/ssnived/resume/blob/master/Nived_Subbarayan_Photo.jpg?raw&#x3D;true" alt="Nived Subbarayan" />
+    		<div class="middle">
+    			<h1 class="name">Nived Subbarayan</h1>
+    			<h2 class="label">Quality Engineering Architect</h2>
     		</div>
-    		<div class="phone">
-    			<span class="fas fa-mobile-alt"></span>
-    			<a href="tel:61422886550">+61422886550</a>
-    		</div>
-    	</div>
     
-    	<div id="profiles">
-    		<div class="item">
-    			<div class="username">
-    				<span class="fab fa-linkedin linkedin social"></span>
-    				<span class="url">
-    					<a target="_blank" href="https://www.linkedin.com/in/nived-subbarayan/">Nived Subbarayan</a>
-    				</span>
+    		<span class="location">
+    			<span class="city">London,</span>
+    			<span class="countryCode">United Kingdom | Full Working Rights</span>
+    		</span>
+    
+    
+    		<div id="contact">
+    			<div class="email">
+    				<span class="far fa-envelope"></span>
+    				<a class="hide-href-print" href="mailto:ssnived@gmail.com">ssnived@gmail.com</a>
+    			</div>
+    			<div class="phone">
+    				<span class="fas fa-mobile-alt"></span>
+    				<a class="hide-href-print" href="tel:447438761405">447438761405</a>
     			</div>
     		</div>
-    		<div class="item">
-    			<div class="username">
-    				<span class="fab fa-github github social"></span>
-    				<span class="url">
-    					<a target="_blank" href="https://github.com/ssnived">Nived Subbarayan</a>
-    				</span>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-linkedin linkedin social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://www.linkedin.com/in/nived-subbarayan/">Nived Subbarayan</a>
+    					</span>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-github github social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://github.com/ssnived">Nived Subbarayan</a>
+    					</span>
+    				</div>
     			</div>
     		</div>
-    	</div>
-    </header>
+    	</header>
     
-    <section class="section">
-    	<section class="main-summary">
-    		<div><p>As a Quality Engineer with over 5 years of experience, Nived is dedicated to advancing his knowledge and skills in the field of Quality Engineering. He aims to broaden his exposure to different markets and products, and to improve his technical abilities to ensure the highest quality standards are met. Nived strives to establish himself as a respected professional and leader in the product development industry, known for his expertise in Quality Engineering. Please note, Nived is based in London, United Kingdom, with full working rights.</p></div>
+    	<section class="section">
+    		<section class="main-summary">
+    			<div><p><p>As a Quality Engineer with over 5 years of experience, Nived is dedicated to advancing his knowledge and skills in the field of Quality Engineering. He aims to broaden his exposure to different markets and products, and to improve his technical abilities to ensure the highest quality standards are met. Nived strives to establish himself as a respected professional and leader in the product development industry, known for his expertise in Quality Engineering. Please note, Nived is based in London, United Kingdom, with full working rights.</p></p></div>
+    		</section>
     	</section>
-    </section>
     
     <section class="section">
     	<header>
@@ -938,66 +895,66 @@ section .location {
     	</section>
     </section>
     <section class="section">
-    	<header>
-    		<h2 class='section-title'>Work Experience <span class="item-count">(2)</span></h2>
-    	</header>
+      <header>
+        <h2 class='section-title'>Work Experience <span class="item-count">(2)</span></h2>
+      </header>
     
-    	<section id="work">
-    		<section class="work-item">
+      <section id="work">
+        <section class="work-item">
     
-    			<input id="work-item-0" type="checkbox" class="toggle-item" checked="checked" />
-    			<label for="work-item-0"></label>
+          <label for="work-item-0"></label>
     
-    			<header class="clear">
-    				<div class="position">Quality Engineering Architect</div>
-    				<div class="company">Slalom Build</div>
-    				<div class="date">
-    					<span class="startDate">Aug 2021</span>
-    					<span class="endDate">- Current</span>
-    				</div>
-    			</header>
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Aug 2021</span>
+              <span class="endDate">- Current</span>
+            </div>
+            <div class="position">Quality Engineering Architect</div>
+            <div class="company">Slalom Build</div>
+          </header>
     
-    			<span class="location">
-    				<span class="fas fa-map-marker-alt"></span>
-    				<span class="city">Melbourne, Australia</span>
-    			</span>
-     			<div class="item" id="work-item">
-    				<div class="summary"><p>Slalom is a modern consulting firm focused on strategy, technology, and business transformation. Slalom redefines what's possible and create what's next.</p></div>
-    				<ul class="highlights">
-    					<li><p>Lead Quality Engineer involved in architecting and implementing 'shift left' modern quality solutions in multiple projects spanning from web applications, mobile applications, database modernisations and infrastructure modernisations</p></li>
-    					<li><p>Proficient in working in cross functional teams and coaching Software, Data, Platform and other Quality Engineers on best quality practices throughout the whole software development lifecycle</p></li>
-    					<li><p>Demonstrated exceptional leadership and architectural skills which led to a role promotion from Senior Quality Engineer to Quality Engineering Architect</p></li>
-    				</ul>
-    			</div>
-    		</section>
-    		<section class="work-item">
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="location">Melbourne, Australia</span>
+          <span class="url">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://www.slalombuild.com">https://www.slalombuild.com</a>
+          </span>        <div class="item" id="work-item">
+            <div class="summary"><p><p>Slalom is a modern consulting firm focused on strategy, technology, and business transformation. Slalom redefines what's possible and create what's next.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Lead Quality Engineer involved in architecting and implementing 'shift left' modern quality solutions in multiple projects spanning from web applications, mobile applications, database modernisations and infrastructure modernisations</p></p></li>
+              <li><p><p>Proficient in working in cross functional teams and coaching Software, Data, Platform and other Quality Engineers on best quality practices throughout the whole software development lifecycle</p></p></li>
+              <li><p><p>Demonstrated exceptional leadership and architectural skills which led to a role promotion from Senior Quality Engineer to Quality Engineering Architect</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
     
-    			<input id="work-item-1" type="checkbox" class="toggle-item" checked="checked" />
-    			<label for="work-item-1"></label>
+          <label for="work-item-1"></label>
     
-    			<header class="clear">
-    				<div class="position">Quality Engineering Consultant</div>
-    				<div class="company">Accenture</div>
-    				<div class="date">
-    					<span class="startDate">Mar 2019</span>
-    					<span class="endDate">- Aug 2021</span>
-    				</div>
-    			</header>
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Mar 2019</span>
+              <span class="endDate">- Aug 2021</span>
+            </div>
+            <div class="position">Quality Engineering Consultant</div>
+            <div class="company">Accenture</div>
+          </header>
     
-    			<span class="location">
-    				<span class="fas fa-map-marker-alt"></span>
-    				<span class="city">Melbourne, Australia</span>
-    			</span>
-     			<div class="item" id="work-item">
-    				<div class="summary"><p>Accenture is a leading global professional services company that helps the world’s leading businesses, governments and other organisations build their digital core, optimise their operations, accelerate revenue growth and enhance citizen services—creating tangible value at speed and scale.</p></div>
-    				<ul class="highlights">
-    					<li><p>Working as a systems QA Engineer in client operations and project delivery</p></li>
-    					<li><p>Adept in Agile working methodologies. Received an ICAgile Certified Professional certification</p></li>
-    					<li><p>Proficient in working in teams both domestically and internationally</p></li>
-    				</ul>
-    			</div>
-    		</section>
-    	</section>
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="location">Melbourne, Australia</span>
+          <span class="url">
+            <span class="fas fa-external-link-alt"></span>
+            <a target="_blank" href="https://www.accenture.com">https://www.accenture.com</a>
+          </span>        <div class="item" id="work-item">
+            <div class="summary"><p><p>Accenture is a leading global professional services company that helps the world’s leading businesses, governments and other organisations build their digital core, optimise their operations, accelerate revenue growth and enhance citizen services—creating tangible value at speed and scale.</p></p></div>
+            <ul class="highlights">
+              <li><p><p>Working as a systems QA Engineer in client operations and project delivery</p></p></li>
+              <li><p><p>Adept in Agile working methodologies. Received an ICAgile Certified Professional certification</p></p></li>
+              <li><p><p>Proficient in working in teams both domestically and internationally</p></p></li>
+            </ul>
+          </div>
+        </section>
+      </section>
     </section>
     <section class="section">
       <header>
@@ -1005,270 +962,214 @@ section .location {
       </header>
       <section id="projects">
         <section class="project-item">
-          <input id="project-item-0" type="checkbox" class="toggle-item" checked="checked" />
-          <label for="project-item-0"></label>
     
           <header class="clear">
             <div class="position">Financial Services Client | Engagement Application</div>
-            <div class="company">Slalom Build</div>
             <div class="date">
               <span class="startDate">Jan 2023</span>
               <span class="endDate">- Current</span>
             </div>
           </header>
-          
           <span class="location">
-    				<span class="fas fa-map-marker-alt"></span>
-    				<span class="city">Melbourne, Australia</span>
-    			</span>
-          
+          <span class="fas fa-map-marker-alt"></span>
+          </span>
           <ul class="keywords">
-            <li>Specflow</li>
-            <li>C#</li>
-            <li>.NET</li>
-            <li>API Testing</li>
-            <li>Typescript</li>
-            <li>Javascript</li>
-            <li>Postman</li>
-            <li>Playwright</li>
-            <li>Appium</li>
-            <li>React</li>
-            <li>GitLab</li>
-            <li>AWS</li>
-            <li>JIRA</li>
+              <li>Specflow</li>
+              <li>C#</li>
+              <li>.NET</li>
+              <li>API Testing</li>
+              <li>Typescript</li>
+              <li>Javascript</li>
+              <li>Postman</li>
+              <li>Playwright</li>
+              <li>Appium</li>
+              <li>React</li>
+              <li>GitLab</li>
+              <li>AWS</li>
+              <li>JIRA</li>
           </ul>
           <div class="item">
-            <div class="summary"><p>Led the quality modernisation effort for a mobile application and front-end web application using a behaviour-driven framework.</p></div>
             <ul class="highlights">
-              <li><p>Led a Quality Engineering team to maintain quality standards and hit all release deadlines</p></li>
-              <li><p>Built a custom shippable back-end API testing template for use in all the client's back-end repositories</p></li>
-              <li><p>Coached developers to be able to add their own tests and create a cohesive quality-driven team</p></li>
-              <li><p>Demoed new features to the wider client team in their company wide showcase calls</p></li>
+                <li><p><p>Led a Quality Engineering team to maintain quality standards and hit all release deadlines</p></p></li>
+                <li><p><p>Built a custom shippable back-end API testing template for use in all the client's back-end repositories</p></p></li>
+                <li><p><p>Coached developers to be able to add their own tests and create a cohesive quality-driven team</p></p></li>
+                <li><p><p>Demoed new features to the wider client team in their company wide showcase calls</p></p></li>
             </ul>
           </div>
         </section>
         <section class="project-item">
-          <input id="project-item-1" type="checkbox" class="toggle-item" checked="checked" />
-          <label for="project-item-1"></label>
     
           <header class="clear">
             <div class="position">Retail Client | Merchant Web Application</div>
-            <div class="company">Slalom Build</div>
             <div class="date">
               <span class="startDate">Jun 2022</span>
               <span class="endDate">- Dec 2022</span>
             </div>
           </header>
-          
           <span class="location">
-    				<span class="fas fa-map-marker-alt"></span>
-    				<span class="city">Melbourne, Australia</span>
-    			</span>
-          
+          <span class="fas fa-map-marker-alt"></span>
+          </span>
           <ul class="keywords">
-            <li>Python</li>
-            <li>Playwright</li>
-            <li>React</li>
-            <li>Typescript</li>
-            <li>Javascript</li>
-            <li>GitLab</li>
-            <li>AWS</li>
-            <li>JIRA</li>
+              <li>Python</li>
+              <li>Playwright</li>
+              <li>React</li>
+              <li>Typescript</li>
+              <li>Javascript</li>
+              <li>GitLab</li>
+              <li>AWS</li>
+              <li>JIRA</li>
           </ul>
           <div class="item">
-            <div class="summary"><p>Led the quality modernisation effort for a front-end web application by utilising Playwright to overhaul the current test automation framework.</p></div>
             <ul class="highlights">
-              <li><p>Established and implemented best practices for the development and pipeline processes to ensure that the highest standards of quality were met throughout this and future projects</p></li>
-              <li><p>Utilised AWS Cloudwatch to set up monitoring and alerting for performance triggers</p></li>
+                <li><p><p>Established and implemented best practices for the development and pipeline processes to ensure that the highest standards of quality were met throughout this and future projects</p></p></li>
+                <li><p><p>Utilised AWS Cloudwatch to set up monitoring and alerting for performance triggers</p></p></li>
             </ul>
           </div>
         </section>
         <section class="project-item">
-          <input id="project-item-2" type="checkbox" class="toggle-item" checked="checked" />
-          <label for="project-item-2"></label>
     
           <header class="clear">
             <div class="position">Retail Client | Notification Service</div>
-            <div class="company">Slalom Build</div>
             <div class="date">
               <span class="startDate">Mar 2022</span>
               <span class="endDate">- Jun 2022</span>
             </div>
           </header>
-          
           <span class="location">
-    				<span class="fas fa-map-marker-alt"></span>
-    				<span class="city">Melbourne, Australia</span>
-    			</span>
-          
+          <span class="fas fa-map-marker-alt"></span>
+          </span>
           <ul class="keywords">
-            <li>Python</li>
-            <li>Gmail API</li>
-            <li>PyTest</li>
-            <li>Twilio</li>
-            <li>AWS</li>
-            <li>JIRA</li>
+              <li>Python</li>
+              <li>Gmail API</li>
+              <li>PyTest</li>
+              <li>Twilio</li>
+              <li>AWS</li>
+              <li>JIRA</li>
           </ul>
           <div class="item">
-            <div class="summary"><p>Directed the quality strategy and implementation for a notification service modernisation project, overseeing the overhaul of the way emails and text messages are sent at large scale business entities.</p></div>
             <ul class="highlights">
-              <li><p>Developed custom python scripts to programatically access a test gmail and twilio inboxes to validate the successful sending of email and text messages</p></li>
-              <li><p>Integrated the custom tests with the CI/CD pipelines to optimise test automation in the software development lifecycle</p></li>
+                <li><p><p>Developed custom python scripts to programatically access a test gmail and twilio inboxes to validate the successful sending of email and text messages</p></p></li>
+                <li><p><p>Integrated the custom tests with the CI/CD pipelines to optimise test automation in the software development lifecycle</p></p></li>
             </ul>
           </div>
         </section>
         <section class="project-item">
-          <input id="project-item-3" type="checkbox" class="toggle-item" checked="checked" />
-          <label for="project-item-3"></label>
     
           <header class="clear">
             <div class="position">Retail Client | Data Platform</div>
-            <div class="company">Slalom Build</div>
             <div class="date">
               <span class="startDate">Jan 2022</span>
               <span class="endDate">- Mar 2022</span>
             </div>
           </header>
-          
           <span class="location">
-    				<span class="fas fa-map-marker-alt"></span>
-    				<span class="city">Melbourne, Australia</span>
-    			</span>
-          
+          <span class="fas fa-map-marker-alt"></span>
+          </span>
           <ul class="keywords">
-            <li>DBT</li>
-            <li>DBT Cloud</li>
-            <li>SQL</li>
-            <li>Snowflake</li>
-            <li>AWS</li>
-            <li>DBeaver</li>
-            <li>GitLab</li>
-            <li>JIRA</li>
+              <li>DBT</li>
+              <li>DBT Cloud</li>
+              <li>SQL</li>
+              <li>Snowflake</li>
+              <li>AWS</li>
+              <li>DBeaver</li>
+              <li>GitLab</li>
+              <li>JIRA</li>
           </ul>
           <div class="item">
-            <div class="summary"><p>Coordinated the architecture, design, and implementation of a data quality strategy for a modernised analytics platform and services on AWS Cloud in a cross-functional team. This enabled the agency to offer reliable analytics as a shared service to customers through the use of native and 3rd party components.</p></div>
             <ul class="highlights">
-              <li><p>Solidified my understanding of best quality practices in data-driven projects</p></li>
-              <li><p>Implemented modern data quality checks in the CI/CD pipelines</p></li>
+                <li><p><p>Solidified my understanding of best quality practices in data-driven projects</p></p></li>
+                <li><p><p>Implemented modern data quality checks in the CI/CD pipelines</p></p></li>
             </ul>
           </div>
         </section>
         <section class="project-item">
-          <input id="project-item-4" type="checkbox" class="toggle-item" checked="checked" />
-          <label for="project-item-4"></label>
     
           <header class="clear">
             <div class="position">Oil &amp; Gas Client | Site Owner Web Application</div>
-            <div class="company">Slalom Build</div>
             <div class="date">
               <span class="startDate">Aug 2021</span>
               <span class="endDate">- Dec 2021</span>
             </div>
           </header>
-          
           <span class="location">
-    				<span class="fas fa-map-marker-alt"></span>
-    				<span class="city">Melbourne, Australia</span>
-    			</span>
-          
+          <span class="fas fa-map-marker-alt"></span>
+          </span>
           <ul class="keywords">
-            <li>Cypress</li>
-            <li>Typescript</li>
-            <li>Javascript</li>
-            <li>Azure</li>
-            <li>AWS</li>
-            <li>JIRA</li>
+              <li>Cypress</li>
+              <li>Typescript</li>
+              <li>Javascript</li>
+              <li>Azure</li>
+              <li>AWS</li>
+              <li>JIRA</li>
           </ul>
           <div class="item">
-            <div class="summary"><p>Led the development and implementation of a quality strategy for a consolidated front-end web application for physical site owners, managing testing, defect identification, and cross-functional collaboration for successful delivery.</p></div>
           </div>
         </section>
         <section class="project-item">
-          <input id="project-item-5" type="checkbox" class="toggle-item" checked="checked" />
-          <label for="project-item-5"></label>
     
           <header class="clear">
             <div class="position">myWizardAiOps | Automated Ticketing Platform</div>
-            <div class="company">Accenture</div>
             <div class="date">
               <span class="startDate">Aug 2019</span>
               <span class="endDate">- Aug 2021</span>
             </div>
           </header>
-          
           <span class="location">
-    				<span class="fas fa-map-marker-alt"></span>
-    				<span class="city">Melbourne, Australia</span>
-    			</span>
-          
+          <span class="fas fa-map-marker-alt"></span>
+          </span>
           <ul class="keywords">
-            <li>Cypress</li>
-            <li>Typescript</li>
-            <li>Javascript</li>
-            <li>AWS</li>
-            <li>JIRA</li>
+              <li>Cypress</li>
+              <li>Typescript</li>
+              <li>Javascript</li>
+              <li>AWS</li>
+              <li>JIRA</li>
           </ul>
           <div class="item">
-            <div class="summary"><p>Led a Quality Engineering team tasked with the creation and implementation of best Quality Engineering practices for an internal Automated Ticket resolution SaaS product which Accenture sells to clients.</p></div>
           </div>
         </section>
         <section class="project-item">
-          <input id="project-item-6" type="checkbox" class="toggle-item" checked="checked" />
-          <label for="project-item-6"></label>
     
           <header class="clear">
             <div class="position">Government Client | Systems Tester</div>
-            <div class="company">Accenture</div>
             <div class="date">
               <span class="startDate">Mar 2019</span>
               <span class="endDate">- Aug 2019</span>
             </div>
           </header>
-          
           <span class="location">
-    				<span class="fas fa-map-marker-alt"></span>
-    				<span class="city">Melbourne, Australia</span>
-    			</span>
-          
+          <span class="fas fa-map-marker-alt"></span>
+          </span>
           <ul class="keywords">
-            <li>Manual Testing</li>
-            <li>Test Plans</li>
-            <li>Documentation</li>
-            <li>Test Cases</li>
-            <li>Agile</li>
-            <li>JIRA</li>
+              <li>Manual Testing</li>
+              <li>Test Plans</li>
+              <li>Documentation</li>
+              <li>Test Cases</li>
+              <li>Agile</li>
+              <li>JIRA</li>
           </ul>
           <div class="item">
-            <div class="summary"><p>Systems tester involved in managing release processes and working in an agile evironment. Tasked with manual testing and creating test plans and test documention to ensure government standards and release deadlines are met.</p></div>
           </div>
         </section>
         <section class="project-item">
-          <input id="project-item-7" type="checkbox" class="toggle-item" checked="checked" />
-          <label for="project-item-7"></label>
     
           <header class="clear">
             <div class="position">Summit Participant</div>
-            <div class="company">Engineers Without Borders Australia</div>
             <div class="date">
               <span class="startDate">Jun 2018</span>
               <span class="endDate">- Jul 2018</span>
             </div>
           </header>
-          
           <span class="location">
-    				<span class="fas fa-map-marker-alt"></span>
-    				<span class="city">Kuching, Malaysia</span>
-    			</span>
-          
+          <span class="fas fa-map-marker-alt"></span>
+          </span>
           <ul class="keywords">
-            <li>Volunteering</li>
-            <li>Thesis</li>
-            <li>Human-Centred Design</li>
+              <li>Volunteering</li>
+              <li>Thesis</li>
+              <li>Human-Centred Design</li>
           </ul>
           <div class="item">
-            <div class="summary"><p>Undertook a humanitarian engineering trip to Borneo to further my human-centred design skills and cultural awareness.</p></div>
             <ul class="highlights">
-              <li><p>Conducted as part of my honours thesis titled “Optimisation of off-grid solar photovoltaic systems in developing areas”</p></li>
+                <li><p><p>Conducted as part of my honours thesis titled “Optimisation of off-grid solar photovoltaic systems in developing areas”</p></p></li>
             </ul>
           </div>
         </section>
@@ -1282,6 +1183,15 @@ section .location {
       <section id="education">
         <section class="education-item">
           <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2015
+              </span>
+              <span class="endDate">
+              - 2018
+              </span>
+            </div>
+            <div class="header-left">
               <div class="studyType">
                 Bachelor of Engineering (Honours)
               </div>
@@ -1291,28 +1201,31 @@ section .location {
               <div class="institution">
                 The Australian National University
               </div>
-              <div class="date">
-              <span class="startDate">
-                2015
-              </span>
-              <span class="endDate">
-                - 2018
-              </span>
-             </div>
+            </div>
           </header>
     
-    			<div class="location">
-    			</div>
+          <span class="location">
+            <span class="fas fa-map-marker-alt"></span>
+          </span>
     
     
           <div class="item">
             <div class='gpa'>
-              <strong> GPA:</strong> <span>6.3/7.0</span>
+              <strong> Grade:</strong> <span>6.3/7.0</span>
             </div>
           </div>
         </section>
         <section class="education-item">
           <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2017
+              </span>
+              <span class="endDate">
+              - 2017
+              </span>
+            </div>
+            <div class="header-left">
               <div class="studyType">
                 Study Abroad
               </div>
@@ -1322,18 +1235,12 @@ section .location {
               <div class="institution">
                 The University of Wisconsin-Madison
               </div>
-              <div class="date">
-              <span class="startDate">
-                2017
-              </span>
-              <span class="endDate">
-                - 2017
-              </span>
-             </div>
+            </div>
           </header>
     
-    			<div class="location">
-    			</div>
+          <span class="location">
+            <span class="fas fa-map-marker-alt"></span>
+          </span>
     
     
           <div class="item">
@@ -1341,118 +1248,115 @@ section .location {
         </section>
       </section>
     </section>
-    <section class="section">
-      <header>
-        <h2 class='section-title'>Awards</h2>
-      </header>
-      <section id="awards">
-        <section class="award-item">
+      <section class="section">
+        <header>
+          <h2 class="section-title">Awards</h2>
+        </header>
+        <section id="awards">
+            <section class="award-item">
     
-          <header class="clear">
-            <div class="header-left">
-              <div class="title">
-                Certified Solutions Architect – Associate
-              </div>
-              <div class="awarder">
-                AWS
-              </div>
-            </div>
-          </header>
-          
-          <div class="item">
-          </div>
-        </section>
-        <section class="award-item">
+              <header class="clear">
+                <div class="header-left">
+                    <div class="title">
+                      Certified Solutions Architect – Associate
+                    </div>
+                    <div class="awarder">
+                      AWS
+                    </div>
+                </div>
+              </header>
     
-          <header class="clear">
-            <div class="header-left">
-              <div class="title">
-                Certified Cloud Practitioner
+              <div class="item">
               </div>
-              <div class="awarder">
-                AWS
-              </div>
-            </div>
-          </header>
-          
-          <div class="item">
-          </div>
-        </section>
-        <section class="award-item">
+            </section>
+            <section class="award-item">
     
-          <header class="clear">
-            <div class="header-left">
-              <div class="title">
-                Certified Professional Certification
-              </div>
-              <div class="awarder">
-                ICAgile
-              </div>
-            </div>
-          </header>
-          
-          <div class="item">
-          </div>
-        </section>
-        <section class="award-item">
-            <input id="award-item-3" type="checkbox" class="toggle-item" checked="checked"/>
-            <label for="award-item-3"></label>
+              <header class="clear">
+                <div class="header-left">
+                    <div class="title">
+                      Certified Cloud Practitioner
+                    </div>
+                    <div class="awarder">
+                      AWS
+                    </div>
+                </div>
+              </header>
     
-          <header class="clear">
-            <div class="header-left">
-              <div class="title">
-                2 x Slalom Build Team Mogul
+              <div class="item">
               </div>
-              <div class="awarder">
-                Slalom Build
-              </div>
-            </div>
-          </header>
-          
-          <div class="item">
-              <div class="summary"><p>Awarded to members of the best performing Slalom Build team over the quarter</p></div>
-          </div>
-        </section>
-        <section class="award-item">
-            <input id="award-item-4" type="checkbox" class="toggle-item" checked="checked"/>
-            <label for="award-item-4"></label>
+            </section>
+            <section class="award-item">
     
-          <header class="clear">
-            <div class="header-left">
-              <div class="title">
-                New Colombo Plan Scholarship
-              </div>
-              <div class="awarder">
-                The Australian National University
-              </div>
-            </div>
-          </header>
-          
-          <div class="item">
-              <div class="summary"><p>Due to my high academic standing, I have received a New Colombo Plan Scholarship valued at $3,000 from the Australian National University</p></div>
-          </div>
-        </section>
-        <section class="award-item">
-            <input id="award-item-5" type="checkbox" class="toggle-item" checked="checked"/>
-            <label for="award-item-5"></label>
+              <header class="clear">
+                <div class="header-left">
+                    <div class="title">
+                      Certified Professional Certification
+                    </div>
+                    <div class="awarder">
+                      ICAgile
+                    </div>
+                </div>
+              </header>
     
-          <header class="clear">
-            <div class="header-left">
-              <div class="title">
-                Honours Thesis
+              <div class="item">
               </div>
-              <div class="awarder">
-                The Australian National University
+            </section>
+            <section class="award-item">
+                <label for="award-item-3"></label>
+    
+              <header class="clear">
+                <div class="header-left">
+                    <div class="title">
+                      2 x Slalom Build Team Mogul
+                    </div>
+                    <div class="awarder">
+                      Slalom Build
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <div class="summary"><p><p>Awarded to members of the best performing Slalom Build team over the quarter</p></p></div>
               </div>
-            </div>
-          </header>
-          
-          <div class="item">
-              <div class="summary"><p>Completed an honours thesis titled “Optimisation of off-grid solar photovoltaic systems in developing areas”</p></div>
-          </div>
+            </section>
+            <section class="award-item">
+                <label for="award-item-4"></label>
+    
+              <header class="clear">
+                <div class="header-left">
+                    <div class="title">
+                      New Colombo Plan Scholarship
+                    </div>
+                    <div class="awarder">
+                      The Australian National University
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <div class="summary"><p><p>Due to my high academic standing, I have received a New Colombo Plan Scholarship valued at $3,000 from the Australian National University</p></p></div>
+              </div>
+            </section>
+            <section class="award-item">
+                <label for="award-item-5"></label>
+    
+              <header class="clear">
+                <div class="header-left">
+                    <div class="title">
+                      Honours Thesis
+                    </div>
+                    <div class="awarder">
+                      The Australian National University
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+                  <div class="summary"><p><p>Completed an honours thesis titled “Optimisation of off-grid solar photovoltaic systems in developing areas”</p></p></div>
+              </div>
+            </section>
         </section>
       </section>
-    </section>
     <section class="section">
       <header>
         <h2 class='section-title'>Languages</h2>
