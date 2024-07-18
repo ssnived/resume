@@ -133,10 +133,34 @@
   ],
   "projects": [
     {
+      "name": "Government Client | Census Web Application",
+      "entity": "Slalom Build",
+      "description": "Quality Engineer tasked with ensuring the reliability of a critical nationwide census web application used by over 20 million users",
+      "startDate": "2024-01-01",
+      "endDate": "2024-05-01",
+      "location": "Melbourne, Australia",
+      "keywords": [
+        "Selenium",
+        "Java",
+        "API Testing",
+        "Postman",
+        "React",
+        "AWS",
+        "JIRA"
+      ],
+      "highlights": [
+        "Lead Quality Engineer for the functional testing team ensuring that features were built to a high standard",
+        "Coached developers to be able to build reliably to handle high peak loads and prevent downtime",
+        "Developed robust test automation frameworks leveraging Selenium, guaranteeing smooth performance of the census form during critical user periods"
+      ],
+      "pinned": true
+    },
+    {
       "name": "Financial Services Client | Engagement Application",
       "entity": "Slalom Build",
       "description": "Led the quality modernisation effort for a mobile application and front-end web application using a behaviour-driven framework.",
       "startDate": "2023-01-01",
+      "endDate": "2023-12-01",
       "location": "Melbourne, Australia",
       "keywords": [
         "Specflow",
