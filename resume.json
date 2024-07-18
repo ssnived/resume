@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Nived Subbarayan",
-    "label": "Quality Engineering Architect",
+    "label": "QA Software Engineer",
     "image": "https://github.com/ssnived/resume/blob/master/Nived_Subbarayan_Photo.jpg?raw=true",
     "email": "ssnived@gmail.com",
     "phone": "447438761405",
@@ -32,7 +32,8 @@
         "Python",
         "Typescript",
         "Javascript",
-        "C#"
+        "C#",
+        "Go"
       ]
     },
     {
@@ -67,6 +68,16 @@
         "DBT Cloud",
         "Snowflake"
       ]
+    },
+    {
+      "name": "Web3",
+      "level": "Beginner",
+      "keywords": [
+        "Hardhat",
+        "Solidity",
+        "Smart Contracts",
+        "Networks"
+      ]
     }
   ],
   "work": [
@@ -74,16 +85,15 @@
       "company": "Chainlink Labs",
       "name": "Chainlink Labs",
       "position": "QA Software Engineer",
-      "location": "London, United Kingdom",
-      "url": "https://www.slalombuild.com",
+      "location": "London, United Kingdom (Remote)",
+      "url": "https://chainlinklabs.com",
       "startDate": "2024-06-01",
       "endDate": "2024-07-01",
       "highlights": [
-        "Lead Quality Engineer involved in architecting and implementing 'shift left' modern quality solutions in multiple projects spanning from web applications, mobile applications, database modernisations and infrastructure modernisations",
-        "Proficient in working in cross functional teams and coaching Software, Data, Platform and other Quality Engineers on best quality practices throughout the whole software development lifecycle",
-        "Demonstrated exceptional leadership and architectural skills which led to a role promotion from Senior Quality Engineer to Quality Engineering Architect"
+        "Hired as a QA Software Engineer to help ensure reliability of the products being developed, automate tests and assist in building out test tooling in Golang",
+        "Developed a solid understanding of how Chainlink oracles bridge the gap between blockchains and real-world data, including their functionalities and use cases within Web3 applications"
       ],
-      "summary": "Slalom is a modern consulting firm focused on strategy, technology, and business transformation. Slalom redefines what's possible and create what's next.",
+      "summary": "Chainlink Labs is the leading provider of secure and reliable Web3 services that have enabled trillions of dollars in transaction value across DeFi, insurance, gaming, NFTs, and other major industries. Chainlink Web3 services enhance smart contracts by connecting them to real-world data sources and off-chain computation across any blockchain and provide global enterprises with a universal gateway to all blockchains. Chainlink Labs is dedicated to the development and integration of Chainlink as the industry-standard Web3 services platform connecting the world to blockchains.",
       "pinned": true
     },
     {
