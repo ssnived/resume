@@ -44,7 +44,8 @@
         "Cypress",
         "Postman",
         "DevOps",
-        "PyTest"
+        "PyTest",
+        "Docker"
       ]
     },
     {
@@ -71,12 +72,13 @@
     },
     {
       "name": "Web3",
-      "level": "Beginner",
+      "level": "Intermediate",
       "keywords": [
         "Hardhat",
         "Solidity",
         "Smart Contracts",
-        "Networks"
+        "Networks",
+        "Oracles"
       ]
     }
   ],
