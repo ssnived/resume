@@ -32,8 +32,7 @@
         "Python",
         "Typescript",
         "Javascript",
-        "C#",
-        "Go"
+        "C#"
       ]
     },
     {
@@ -77,8 +76,9 @@
         "Hardhat",
         "Solidity",
         "Smart Contracts",
-        "Networks",
-        "Oracles"
+        "Oracles",
+        "Go",
+        "Rust"
       ]
     }
   ],
