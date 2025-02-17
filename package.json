@@ -4,8 +4,7 @@
   "description": "My current resume",
   "main": "index.js",
   "dependencies": {
-    "jsonresume-theme-even": "^0.22.0",
-    "jsonresume-theme-stackoverflow": "^2.0.2",
+    "jsonresume-theme-stackoverflow": "git+https://github.com/ssnived/jsonresume-theme-stackoverflow.git",
     "resumed-cli": "^2.1.9"
   },
   "scripts": {

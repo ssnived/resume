@@ -84,6 +84,23 @@
   ],
   "work": [
     {
+      "company": "Injective Labs",
+      "name": "Injective Labs",
+      "position": "QA Software Engineer",
+      "location": "London, United Kingdom (Remote)",
+      "url": "https://injectivelabs.org",
+      "startDate": "2024-10-01",
+      "highlights": [
+        "Working as a QA Software Engineer to build and enhance testing tooling in Golang for a Layer 1 blockchain",
+        "Managing upgrades and releases, ensuring seamless deployments across the Injective ecosystem",
+        "Developing and maintaining an automation framework to test Injective’s blockchain infrastructure and smart contracts",
+        "Collaborating closely with engineers and product teams to ensure reliability and performance of the chain",
+        "Engaging with the Web3 and blockchain community to stay up-to-date with best practices in blockchain testing and automation"
+      ],
+      "summary": "Injective Labs is a leading Web3 company focused on building the Injective blockchain, a highly performant Layer 1 optimized for decentralized finance, derivatives, and interoperability. Injective provides a fully decentralized smart contract platform with near-instant finality, advanced interoperability, and the ability to create highly complex financial applications.",
+      "pinned": true
+    },
+    {
       "company": "Chainlink Labs",
       "name": "Chainlink Labs",
       "position": "QA Software Engineer",
