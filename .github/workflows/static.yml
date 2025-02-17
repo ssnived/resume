@@ -1,9 +1,9 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["master"]
+    branches:
+      - master
   workflow_dispatch:
 
 permissions:
@@ -23,16 +23,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4 # ✅ Latest version
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v4 # ✅ Latest version
 
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+      - name: Build Static Site (Optional)
+        run: |
+          mkdir -p public
+          cp index.html public/  # Ensures index.html is in the correct location
+
+      - name: Upload Artifact (GitHub Pages)
+        uses: actions/upload-pages-artifact@v2 # ✅ CORRECT for GitHub Pages
         with:
-          name: github-pages
-          path: "."
+          path: "public" # Make sure this is the right directory
 
       - name: Deploy to GitHub Pages
         id: deployment
