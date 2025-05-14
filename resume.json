@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Nived Subbarayan",
-    "label": "QA Software Engineer | Chainlink Labs",
+    "label": "QA Software Engineer | Injective Labs",
     "image": "https://github.com/ssnived/resume/blob/master/Nived_Subbarayan_Photo.jpg?raw=true",
     "email": "ssnived@gmail.com",
     "phone": "447438761405",
-    "summary": "As a Quality Engineer with over 5 years of experience, Nived is dedicated to advancing his knowledge and skills in the field of Quality Engineering. He aims to broaden his exposure to different markets and products, and to improve his technical abilities to ensure the highest quality standards are met. Nived strives to establish himself as a respected professional and leader in the product development industry, known for his expertise in Quality Engineering. Please note, Nived is based in London, United Kingdom, with full working rights.",
+    "summary": "As a Quality Engineer with over 6 years of experience, Nived is dedicated to advancing his knowledge and skills in the field of Quality Engineering. He aims to broaden his exposure to different markets and products, and to improve his technical abilities to ensure the highest quality standards are met. Nived strives to establish himself as a respected professional and leader in the product development industry, known for his expertise in Quality Engineering. Please note, Nived is based in London, United Kingdom, with full working rights.",
     "location": {
       "city": "London",
       "countryCode": "United Kingdom | Full Working Rights"
@@ -89,15 +89,16 @@
       "position": "QA Software Engineer",
       "location": "London, United Kingdom (Remote)",
       "url": "https://injectivelabs.org",
-      "startDate": "2024-10-01",
+      "startDate": "2024-09-01",
+      "endDate": "",
       "highlights": [
-        "Working as a QA Software Engineer to build and enhance testing tooling in Golang for a Layer 1 blockchain",
-        "Managing upgrades and releases, ensuring seamless deployments across the Injective ecosystem",
-        "Developing and maintaining an automation framework to test Injective’s blockchain infrastructure and smart contracts",
-        "Collaborating closely with engineers and product teams to ensure reliability and performance of the chain",
-        "Engaging with the Web3 and blockchain community to stay up-to-date with best practices in blockchain testing and automation"
+        "Designing, implementing, and maintaining robust automated test frameworks for Injective's core layer-1 blockchain and DeFi protocols",
+        "Conducting end-to-end testing for smart contract functionality, governance modules, cross-chain interactions, and transaction flows",
+        "Writing and executing Python-based test suites to validate protocol behavior across multiple network environments",
+        "Collaborating closely with engineering and product teams to identify bugs, improve developer workflows, and ensure release quality",
+        "Driving improvements in QA strategy, including test coverage metrics, CI/CD pipeline integration, and error traceability"
       ],
-      "summary": "Injective Labs is a leading Web3 company focused on building the Injective blockchain, a highly performant Layer 1 optimized for decentralized finance, derivatives, and interoperability. Injective provides a fully decentralized smart contract platform with near-instant finality, advanced interoperability, and the ability to create highly complex financial applications.",
+      "summary": "Injective Labs is the core contributor to the Injective blockchain, a highly-performant layer-1 protocol built for decentralized finance. It enables advanced trading capabilities such as orderbook-based DEXs, perpetual futures, and cross-chain interoperability through smart contract infrastructure.",
       "pinned": true
     },
     {
