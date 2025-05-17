@@ -110,7 +110,7 @@
       "startDate": "2024-06-01",
       "endDate": "2024-07-01",
       "highlights": [
-        "Hired as a QA Software Engineer to help ensure reliability of the products being developed, automate tests and assist in building out test tooling in Golang",
+        "Hired as a QA Software Engineer to help ensure reliability of the products being developed, automate tests and assist in building out test tooling in Go",
         "Engaged in meaningful discussions and built a network within the Web3 community, connecting with key professionals in the industry",
         "Acquired a solid understanding of Web3 networks and the functionalities and use cases of Oracles"
       ],
@@ -151,6 +151,54 @@
     }
   ],
   "projects": [
+    {
+      "name": "Injective Protocol | Layer-1 DeFi Testing Infrastructure",
+      "entity": "Injective Labs",
+      "description": "Designed and implemented end-to-end test infrastructure for Injective’s layer-1 DeFi protocol, covering orderbook-based DEXs, governance, and cross-chain interactions.",
+      "startDate": "2024-09-01",
+      "endDate": "",
+      "location": "London, United Kingdom (Remote)",
+      "keywords": [
+        "Python",
+        "Go",
+        "Playwright",
+        "PyTest",
+        "Smart Contracts",
+        "IBC",
+        "Governance",
+        "CI/CD",
+        "Cosmos SDK"
+      ],
+      "highlights": [
+        "Built scalable test frameworks to validate smart contract functionality and transaction behavior across Injective’s protocol modules",
+        "Owned end-to-end testing for governance flows, staking logic, and cross-chain relaying (IBC)",
+        "Improved QA release confidence by integrating coverage metrics and dynamic validations into CI/CD pipelines",
+        "Used Go for CLI test execution, SDK-based test scripting, and transaction validation utilities"
+      ],
+      "pinned": true
+    },
+    {
+      "name": "Chainlink Tooling QA | Oracle and Web3 Infrastructure",
+      "entity": "Chainlink Labs",
+      "description": "Contributed to QA tooling initiatives to improve reliability and coverage for Chainlink’s oracle network infrastructure.",
+      "startDate": "2024-06-01",
+      "endDate": "2024-07-01",
+      "location": "London, United Kingdom (Remote)",
+      "keywords": [
+        "Go",
+        "QA Tooling",
+        "Oracles",
+        "Smart Contracts",
+        "Web3",
+        "Automation"
+      ],
+      "highlights": [
+        "Wrote automation tests and assisted in building reusable tooling in Go for oracle validation",
+        "Collaborated with engineers to expand test coverage and document edge cases for smart contract data feeds",
+        "Gained direct exposure to Chainlink’s oracle architecture and decentralized node interactions"
+      ],
+      "pinned": true
+    },
     {
       "name": "Government Client | Census Web Application",
       "entity": "Slalom Build",
@@ -309,7 +357,7 @@
     {
       "name": "Government Client | Systems Tester",
       "entity": "Accenture",
-      "description": "Systems tester involved in managing release processes and working in an agile environment. Tasked with manual testing and creating test plans and test documention to ensure government standards and release deadlines are met.",
+      "description": "Systems tester involved in managing release processes and working in an agile environment. Tasked with manual testing and creating test plans and test documentation to ensure government standards and release deadlines are met.",
       "startDate": "2019-03-01",
       "endDate": "2019-08-01",
       "location": "Melbourne, Australia",
