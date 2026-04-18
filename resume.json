@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Nived Subbarayan",
-    "label": "QA Software Engineer | Injective Labs",
+    "label": "QA Software Engineer | LI.FI",
     "image": "https://github.com/ssnived/resume/blob/master/Nived_Subbarayan_Photo.jpg?raw=true",
     "email": "ssnived@gmail.com",
     "phone": "447438761405",
-    "summary": "QA Software Engineer with 6+ years of experience in Web2 and Web3 enterprises and startups, with a focus on high-quality release assurance, CI/CD pipeline deployment, and scalable test automation frameworks. Demonstrated success in remote-first and hybrid environments at international consultancies (Slalom, Accenture) and Web3 companies (Injective Labs, Chainlink Labs). Proficient across the full Quality Engineering stack, including framework development and tools such as Python, TypeScript, Playwright, PyTest, Docker, CI/CD, and infrastructure validation. Open to remote-first, hybrid, and relocation-friendly opportunities. Please note I have full working rights in the UK and Spain without the need for sponsorship.",
+    "summary": "QA Software Engineer with 6+ years of experience in Web2 and Web3 enterprises and startups, with a focus on high-quality release assurance, CI/CD pipeline deployment, and scalable test automation frameworks. Demonstrated success in remote-first and hybrid environments at international consultancies (Slalom, Accenture) and Web3 companies (LI.FI, Injective Labs, Chainlink Labs). Proficient across the full Quality Engineering stack, including framework development and tools such as Python, TypeScript, Playwright, PyTest, Docker, CI/CD, and infrastructure validation. Open to remote-first, hybrid, and relocation-friendly opportunities. Please note I have full working rights in the UK and Spain without the need for sponsorship.",
     "location": {
       "region": "London, United Kingdom | Barcelona, Spain | Full Working Rights"
     },
@@ -79,9 +79,38 @@
         "Go",
         "Rust"
       ]
+    },
+    {
+      "name": "AI & LLM",
+      "level": "Intermediate",
+      "keywords": [
+        "Prompt Engineering",
+        "LLM Evaluation",
+        "AI-Assisted Testing",
+        "Claude API",
+        "GitHub Copilot",
+        "RAG Pipelines"
+      ]
     }
   ],
   "work": [
+    {
+      "company": "LI.FI",
+      "name": "LI.FI",
+      "position": "QA Engineer",
+      "location": "Berlin, Germany (Remote)",
+      "url": "https://li.fi",
+      "startDate": "2025-09-01",
+      "endDate": "",
+      "highlights": [
+        "Designing and maintaining automated test frameworks for LI.FI's cross-chain bridging and swapping infrastructure",
+        "Conducting end-to-end and integration testing across API surfaces, smart contract interactions, and multi-chain transaction flows",
+        "Collaborating with engineering and product teams to define acceptance criteria, surface defects early, and ensure release quality",
+        "Contributing to QA strategy improvements including test coverage expansion, CI/CD pipeline integration, and structured defect reporting"
+      ],
+      "summary": "LI.FI is a leading cross-chain bridging aggregator and DeFi infrastructure provider, offering a unified API for swaps, bridging, and any on-chain action. Integrated by major wallets and protocols including Robinhood Wallet, MetaMask, and Phantom.",
+      "pinned": true
+    },
     {
       "company": "Injective Labs",
       "name": "Injective Labs",
@@ -89,7 +118,7 @@
       "location": "London, United Kingdom (Remote)",
       "url": "https://injectivelabs.org",
       "startDate": "2024-09-01",
-      "endDate": "",
+      "endDate": "2025-08-01",
       "highlights": [
         "Designing, implementing, and maintaining robust automated test frameworks for Injective's core layer-1 blockchain and DeFi protocols",
         "Conducting end-to-end testing for smart contract functionality, governance modules, cross-chain interactions, and transaction flows",
@@ -150,6 +179,31 @@
     }
   ],
   "projects": [
+    {
+      "name": "LI.FI | Cross-Chain DeFi QA Infrastructure",
+      "entity": "LI.FI",
+      "description": "Building and maintaining quality assurance infrastructure for LI.FI's cross-chain bridging and swapping platform, ensuring reliable multi-chain transaction flows across 800+ integrated partners.",
+      "startDate": "2025-09-01",
+      "endDate": "",
+      "location": "Berlin, Germany (Remote)",
+      "keywords": [
+        "TypeScript",
+        "Python",
+        "Playwright",
+        "API Testing",
+        "Cross-Chain",
+        "Smart Contracts",
+        "CI/CD",
+        "DeFi"
+      ],
+      "highlights": [
+        "Developed automated test suites covering cross-chain swap and bridge flows across multiple EVM and non-EVM networks",
+        "Established API testing coverage for LI.FI's unified routing and aggregation endpoints",
+        "Integrated test automation into CI/CD pipelines to enforce quality gates on every release",
+        "Collaborated with protocol engineers to design regression suites for new chain integrations and partner onboarding"
+      ],
+      "pinned": true
+    },
     {
       "name": "Injective Protocol | Layer-1 DeFi Testing Infrastructure",
       "entity": "Injective Labs",
