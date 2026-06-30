@@ -6,7 +6,7 @@
     "image": "https://github.com/ssnived/resume/blob/master/Nived_Subbarayan_Photo.jpg?raw=true",
     "email": "ssnived@gmail.com",
     "phone": "447438761405",
-    "summary": "QA Software Engineer with 6+ years of experience in Web2 and Web3 enterprises and startups, with a focus on high-quality release assurance, CI/CD pipeline deployment, and scalable test automation frameworks. Demonstrated success in remote-first and hybrid environments at international consultancies (Slalom, Accenture) and Web3 companies (LI.FI, Injective Labs, Chainlink Labs). Proficient across the full Quality Engineering stack, including framework development and tools such as Python, TypeScript, Playwright, PyTest, Docker, CI/CD, and infrastructure validation. Open to remote-first, hybrid, and relocation-friendly opportunities. Please note I have full working rights in the UK and Spain without the need for sponsorship.",
+    "summary": "QA Software Engineer with 7+ years of experience in Web2 and Web3 enterprises and startups, with a focus on high-quality release assurance, CI/CD pipeline deployment, and scalable test automation frameworks. Demonstrated success in remote-first and hybrid environments at international consultancies (Slalom, Accenture) and Web3 companies (LI.FI, Injective Labs, Chainlink Labs). Proficient across the full Quality Engineering stack, including framework development and tools such as Python, TypeScript, Playwright, PyTest, Docker, CI/CD, and infrastructure validation. Experienced building custom QA AI models and applying LLM tooling to catch quality issues earlier in the software development lifecycle. Open to remote-first, hybrid, and relocation-friendly opportunities.",
     "location": {
       "region": "Barcelona, Spain | Full Working Rights in the UK and Spain"
     },
@@ -31,7 +31,9 @@
         "Python",
         "TypeScript",
         "JavaScript",
-        "C#"
+        "C#",
+        "Java",
+        "SQL"
       ]
     },
     {
@@ -40,10 +42,41 @@
       "keywords": [
         "Playwright",
         "Cypress",
+        "Appium",
+        "SpecFlow",
         "Postman",
-        "DevOps",
         "PyTest",
-        "Docker"
+        "Docker",
+        "GitHub Actions",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "Testing Methodologies",
+      "level": "Master",
+      "keywords": [
+        "BDD",
+        "TDD",
+        "Shift-Left Testing",
+        "E2E Testing",
+        "API Testing",
+        "Regression Testing",
+        "Mobile Testing",
+        "Performance Testing"
+      ]
+    },
+    {
+      "name": "AI & Generative LLM",
+      "level": "Master",
+      "keywords": [
+        "Generative AI",
+        "AI-Assisted Test Automation",
+        "Prompt Engineering",
+        "LLM Evaluation",
+        "GitHub Copilot",
+        "Cursor AI",
+        "Claude API",
+        "MCP"
       ]
     },
     {
@@ -52,9 +85,26 @@
       "keywords": [
         "AWS",
         "Azure",
-        "Jira",
+        "GitHub",
         "GitLab",
-        "Bitbucket"
+        "Bitbucket",
+        "Jira",
+        "Grafana",
+        "AWS CloudWatch",
+        "Twilio"
+      ]
+    },
+    {
+      "name": "Leadership",
+      "level": "Master",
+      "keywords": [
+        "Team Leadership",
+        "Technical Mentoring",
+        "Stakeholder Management",
+        "Agile Coaching",
+        "Technical Communication",
+        "Executive Presentations",
+        "Code Review"
       ]
     },
     {
@@ -63,35 +113,29 @@
       "keywords": [
         "PostgreSQL",
         "MySql",
+        "MongoDB",
+        "Redis",
         "DBT",
         "DBT Cloud",
-        "Snowflake"
+        "Snowflake",
+        "DBeaver"
       ]
     },
     {
       "name": "Web3",
-      "level": "Intermediate",
+      "level": "Master",
       "keywords": [
         "Hardhat",
+        "Foundry",
         "Solidity",
         "Smart Contracts",
-        "Oracles",
+        "EVM",
+        "DeFi",
+        "Ethers.js",
+        "Solana",
+        "Tron",
         "Go",
         "Rust"
-      ]
-    },
-    {
-      "name": "AI & LLM",
-      "level": "Intermediate",
-      "keywords": [
-        "Prompt Engineering",
-        "LLM Evaluation",
-        "AI-Assisted Testing",
-        "Claude API",
-        "GitHub Copilot",
-        "OpenAI Codex",
-        "Cursor",
-        "RAG Pipelines"
       ]
     }
   ],
@@ -105,10 +149,11 @@
       "startDate": "2025-09-01",
       "endDate": "",
       "highlights": [
-        "Designing and maintaining automated test frameworks for LI.FI's cross-chain bridging and swapping infrastructure",
-        "Conducting end-to-end and integration testing across API surfaces, smart contract interactions, and multi-chain transaction flows",
-        "Collaborating with engineering and product teams to define acceptance criteria, surface defects early, and ensure release quality",
-        "Contributing to QA strategy improvements including test coverage expansion, CI/CD pipeline integration, and structured defect reporting"
+        "Built custom QA AI models to catch quality issues earlier in the software development lifecycle",
+        "Own automated test frameworks for LI.FI's cross-chain bridging and swapping infrastructure, supporting reliable flows across 800+ integrated partners",
+        "Lead end-to-end and integration testing across APIs, smart contract interactions, and multi-chain transaction paths",
+        "Partner with engineering and product teams to define acceptance criteria, strengthen release gates, and improve defect traceability",
+        "Drive QA strategy through CI/CD integration, coverage expansion, and AI-assisted quality workflows using Claude API, Cursor, and MCP"
       ],
       "summary": "LI.FI is a leading cross-chain bridging aggregator and DeFi infrastructure provider, offering a unified API for swaps, bridging, and any on-chain action. Integrated by major wallets and protocols including Robinhood Wallet, MetaMask, and Phantom.",
       "pinned": true
@@ -120,7 +165,7 @@
       "location": "London, United Kingdom (Remote)",
       "url": "https://injectivelabs.org",
       "startDate": "2024-09-01",
-      "endDate": "2025-08-01",
+      "endDate": "2025-09-30",
       "highlights": [
         "Designing, implementing, and maintaining robust automated test frameworks for Injective's core layer-1 blockchain and DeFi protocols",
         "Conducting end-to-end testing for smart contract functionality, governance modules, cross-chain interactions, and transaction flows",
@@ -138,7 +183,7 @@
       "location": "London, United Kingdom (Remote)",
       "url": "https://chainlinklabs.com",
       "startDate": "2024-06-01",
-      "endDate": "2024-07-01",
+      "endDate": "2024-10-01",
       "highlights": [
         "Hired as a QA Software Engineer to help ensure reliability of the products being developed, automate tests and assist in building out test tooling in Go",
         "Engaged in meaningful discussions and built a network within the Web3 community, connecting with key professionals in the industry",
@@ -182,9 +227,9 @@
   ],
   "projects": [
     {
-      "name": "LI.FI | Cross-Chain DeFi QA Infrastructure",
+      "name": "LI.FI | AI-Driven Cross-Chain QA Infrastructure",
       "entity": "LI.FI",
-      "description": "Building and maintaining quality assurance infrastructure for LI.FI's cross-chain bridging and swapping platform, ensuring reliable multi-chain transaction flows across 800+ integrated partners.",
+      "description": "Leading quality assurance for LI.FI's cross-chain DeFi platform, combining scalable test automation with custom QA AI models to catch issues earlier in the software development lifecycle across 800+ integrated partners.",
       "startDate": "2025-09-01",
       "endDate": "",
       "location": "Barcelona, Spain (Remote)",
@@ -196,13 +241,16 @@
         "Cross-Chain",
         "Smart Contracts",
         "CI/CD",
-        "DeFi"
+        "DeFi",
+        "Generative AI",
+        "MCP"
       ],
       "highlights": [
-        "Developed automated test suites covering cross-chain swap and bridge flows across multiple EVM and non-EVM networks",
+        "Designed and implemented custom QA AI models to surface quality gaps earlier in the software development lifecycle",
+        "Built automated test suites covering cross-chain swap and bridge flows across multiple EVM and non-EVM networks",
         "Established API testing coverage for LI.FI's unified routing and aggregation endpoints",
-        "Integrated test automation into CI/CD pipelines to enforce quality gates on every release",
-        "Collaborated with protocol engineers to design regression suites for new chain integrations and partner onboarding"
+        "Integrated test automation and AI quality checks into CI/CD pipelines to enforce release gates on every change",
+        "Partnered with protocol engineers to design regression suites for new chain integrations and partner onboarding"
       ],
       "pinned": true
     },
@@ -211,7 +259,7 @@
       "entity": "Injective Labs",
       "description": "Designed and implemented end-to-end test infrastructure for Injective’s layer-1 DeFi protocol, covering orderbook-based DEXs, governance, and cross-chain interactions.",
       "startDate": "2024-09-01",
-      "endDate": "",
+      "endDate": "2025-09-30",
       "location": "London, United Kingdom (Remote)",
       "keywords": [
         "Python",
@@ -508,6 +556,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
+    "lastModified": "2026-06-30T12:00:00"
   }
 }
